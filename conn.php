@@ -1,5 +1,5 @@
 <?php
-$link = new mysqli('localhost','用户名','密码','数据库名');
+$link = new mysqli('101.36.109.44:3306','eatxzs','2df4rcShmRSTBdtK','eatxzs');
 mysqli_set_charset($link, 'utf8');
 if ($link->connect_error) {
     die("连接失败: " . $conn->connect_error);
