@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '就这？小心硕子哥的果子给你炸飞咯！';
+    if (score <= 99) return '不如他的诺手狠';
+    if (score <= 149) return '硕子哥来全毙了';
+    if (score <= 199) return '小心塔姆闪R吃你';
+    return '像他的机器人一样';
 }
 
 function toStr(obj) {
